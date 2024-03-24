@@ -71,3 +71,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to contribute, open issues, or provide feedback. Happy predicting!
 
+![image](https://github.com/Sowham-3098/Stock_Price_Trend_-_Price_Predcition_using_RNN/assets/95470604/10e00872-af7a-4317-92e6-e0a6d9241288)
+
+
