@@ -1,5 +1,5 @@
-import datetime as dt
-from datetime import date, timedelta
+from keras.initializers import Initializer
 
-today = date.today()
-print(today.strftime('%Y-%m-%d'))
+available_initializers = Initializer.__subclasses__()
+initializer_names = [init.__name__ for init in available_initializers]
+print("Available initializers:", initializer_names)

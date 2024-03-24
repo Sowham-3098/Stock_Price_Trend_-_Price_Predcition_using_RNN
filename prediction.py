@@ -7,6 +7,7 @@ from datetime import date, timedelta
 import time
 import matplotlib.pyplot as plt
 from keras.models import load_model
+from keras.initializers import Orthogonal
 import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
 import requests
@@ -153,7 +154,7 @@ if submit:
     #Training Done in Model
 
     #Load model
-    model=load_model('keras_model.h5')
+    model=load_model('stock_prediction.h5')
 
     #test  Data
     paast_100_days=d_train.tail(100)

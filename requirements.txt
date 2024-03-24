@@ -9,5 +9,7 @@ tensorflow
 requests
 matplotlib
 timedelta
+keras.layers
+keras.initializers
 
 
