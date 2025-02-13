@@ -154,7 +154,7 @@ if submit:
     #Training Done in Model
 
     #Load model
-    model=load_model('stock_prediction.h5')
+    model=load_model('stock_predictionmodel.h5')
 
     #test  Data
     paast_100_days=d_train.tail(100)
